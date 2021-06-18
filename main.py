@@ -38,6 +38,47 @@ Text type (String)
 # fullName = f"{firstName} {lastName}"
 # print(fullName)
 
+#========================================
+# \t at the start of string is used to add a tab to the Text
+
+# name = "\tpython"
+# print(name)
+
+#========================================
+
+# \n in a string at the start of a new world puts words on a new line.
+
+# sports = "\nbasketball\nboxing\nmma"
+# print(sports)
+
+#========================================
+
+# using \n\t creates string on new line and also causes the new line to start with a tab. tabs, spaces and newlines are refered to whitespaces in python.
+
+# sports = "\n\tbasketball\n\tboxing\n\tmma"
+# print(sports)
+
+#========================================
+# the .strip() method reomves all whitespaces(spaces) in a string, using .rstrip() just removes all whitespaces(spaces) on the right side of a string whilst .lstrip() does the opposite.
+
+# sport = "    basketball   "
+# sport2 = "    boxing   "
+# sport3 = "    tennis   "
+# print(sport.rstrip())
+# print(sport2.strip())
+# print(sport3.lstrip())
+
+# ========================================
+
+# when using a string with an aptostrophe, use a double, triple single, triple double quotation marks to start and end a string to avoid any syntax errors.
+
+# error
+# print('They're a really athletic team')
+
+# correct ways
+# print("They're really playful husky puppies")
+# print("""The dog's name was hulk""")
+# print('''The cat's name was skylar''')
 
 #========================================
 
