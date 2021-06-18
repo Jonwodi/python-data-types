@@ -1,12 +1,14 @@
 """
 Text type (String)
 """
+# single line strings have a single or double quotation marks at the start and end of a string.
 
 # s = "This is a single line string"
 # print(s)
 # print(type(s))
 
 #========================================
+# multline strings have triple single or triple double quotation marks at the start and end of a string.
 
 # s = """ This is a multiline line 
 # string example"""
@@ -27,6 +29,15 @@ Text type (String)
 # name2 = "KEVIN DURANT"
 # print(name.upper())
 # print(name2.lower())
+
+#========================================
+# This is an f string, it allows you to put variables into a string.
+
+# firstName = "lebron"
+# lastName = "james"
+# fullName = f"{firstName} {lastName}"
+# print(fullName)
+
 
 #========================================
 
