@@ -13,6 +13,22 @@ Text type (String)
 # print(s)
 
 #========================================
+# The .title() method turns the first letter of each word in a string from a lowercase to a uppercase letter.
+
+# name = "michael jordan"
+# name2 = "kobe"
+# print(name.title())
+# print(name2.title())
+
+#========================================
+# The .upper() method turns all letters in a string from lowercase to uppercase letters whilst the .lower() method does the opposite.
+
+# name = "michael jordan"
+# name2 = "KEVIN DURANT"
+# print(name.upper())
+# print(name2.lower())
+
+#========================================
 
 # find a characater by index
 
