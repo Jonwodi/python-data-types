@@ -102,6 +102,17 @@ Text type (String)
 """
 Numeric type (Integer, Float, Complex)
 """
+# You can add a integer or float using a +, subtract a integer or float using a -, multiply a integer or float using a *, exponent a integer or float using a ** and divide a integer or float using a /. 
+
+# print(4+4)
+# print(16-8)
+# print(4*2)
+# print(2**3)
+# print(16/2)
+
+#========================================
+
+
 # Integer
 # inegers are immutable
 # x = 234567324734743
@@ -116,6 +127,57 @@ Numeric type (Integer, Float, Complex)
 # complex
 # x = 1 + 2j
 # print(type(x))
+
+#========================================
+
+
+# assigning a variable to a value, then printing a message out that includes that variable.
+
+# age = 23
+# print(f"I'm age {age} years old")
+
+
+#========================================
+
+# you can use underscore a _ in intergers and floats, especially when dealing with long numerical values. For example, if wanted to assign the value £1000000 to variable, you can write it as shown below:
+
+# a_million_pounds = 1_000_000.0
+# a_million_pounds2 = 1_00_00_00
+# a_million3 = 1_00_000_0
+# print(a_million_pounds)
+# print(a_million_pounds2)
+# print(a_million3)
+
+#========================================
+
+# dividing two intergers returns their answer as a float e.g.
+
+# print(4/2)
+
+# also adding, subtracting. multiplying, dividing or exopenting a integer and float number always returns result as a float value e.g.
+
+# print(8.0/2)
+# print(2.0+2)
+# print(12.0-8)
+# print(2*2.0)
+# print(2.0**2)
+
+#========================================
+
+# a CONSTANT is a variable, that has a value that never changes throught the life of a python program, meaning the value is stays constant. For variable to be constant, all its letters need to be in capital letters e.g.
+
+# THIS_IS_A_CONSTANT_EXAMPLE1 = 23
+
+#========================================
+
+# A comment is a way for  python programmers to make notes without it being printed out in the terminal or being ignored by python. A comment alwsys starts with a hash mark = #.
+
+#========================================
+
+# the zen of python is brief set of principles for writing good code in python. to get the zen of python just type:
+
+# import this
+
 
 """
 Sequence type (List, Tuple, Range)
